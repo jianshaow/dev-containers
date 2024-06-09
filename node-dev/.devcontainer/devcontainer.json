@@ -3,7 +3,8 @@
 	"image": "jianshao/node-dev:lts-slim",
 	"mounts": [
 		{"source": "${localEnv:HOME}/.ssh", "target": "/home/node/.ssh", "type": "bind"},
-		{"source": "${localEnv:HOME}/.npm", "target": "/home/node/.npm", "type": "bind"}
+		{"source": "${localEnv:HOME}/.npm", "target": "/home/node/.npm", "type": "bind"},
+		{"source": "${localEnv:HOME}/github", "target": "/home/node/workspaces", "type": "bind"}
 	],
 	"customizations": {
 		"vscode": {
