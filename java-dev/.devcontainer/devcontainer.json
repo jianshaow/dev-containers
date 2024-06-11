@@ -2,9 +2,21 @@
 	"name": "JAVA-DEV",
 	"image": "jianshao/java-dev:21",
 	"mounts": [
-		{"source": "${localEnv:HOME}/.ssh", "target": "/home/devel/.ssh", "type": "bind"},
-		{"source": "${localEnv:HOME}/.m2", "target": "/home/devel/.m2", "type": "bind"},
-		{"source": "${localEnv:HOME}/github", "target": "/workspaces/github", "type": "bind"}
+		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.m2",
+			"target": "/home/devel/.m2",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/github",
+			"target": "/workspaces/github",
+			"type": "bind"
+		}
 	],
 	"customizations": {
 		"vscode": {
