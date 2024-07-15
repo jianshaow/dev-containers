@@ -1,6 +1,9 @@
 {
 	"name": "JAVA-DEV",
 	"image": "jianshao/java-dev:21",
+	"runArgs": [
+		"--add-host=host.docker.internal:host-gateway"
+	],
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}/.ssh",
