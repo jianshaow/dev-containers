@@ -1,0 +1,23 @@
+{
+	"name": "CPP-DEV",
+	"image": "jianshao/cpp-dev:0.0.1",
+	"mounts": [
+		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/github",
+			"target": "/workspaces/github",
+			"type": "bind"
+		}
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+	}
+}
