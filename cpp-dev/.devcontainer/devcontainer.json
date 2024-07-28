@@ -8,8 +8,8 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/github",
-			"target": "/workspaces/github",
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
 			"type": "bind"
 		}
 	],
