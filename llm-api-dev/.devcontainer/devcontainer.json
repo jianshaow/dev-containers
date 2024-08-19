@@ -18,6 +18,11 @@
 			"source": "${localEnv:HOME}/.ssh",
 			"target": "/home/devel/.ssh",
 			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
 		}
 	],
 	"customizations": {
