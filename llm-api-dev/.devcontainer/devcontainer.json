@@ -1,5 +1,5 @@
 {
-	"name": "LLM-API",
+	"name": "LLM-API-DEV",
 	"image": "jianshao/llm-api-dev:20240819",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
