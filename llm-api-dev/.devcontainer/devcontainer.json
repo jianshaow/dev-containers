@@ -1,0 +1,33 @@
+{
+	"name": "LLM-API",
+	"image": "jianshao/llm-api-dev:20240819",
+	"remoteEnv": {
+		"PYTHONPATH": ".",
+		"OLLAMA_HOST": "host.docker.internal"
+	},
+	"runArgs": [
+		"--add-host=host.docker.internal:host-gateway"
+	],
+	"mounts": [
+		{
+			"source": "${localEnv:HOME}/.config",
+			"target": "/home/devel/.config",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		}
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.black-formatter",
+				"ms-python.isort"
+			]
+		}
+	}
+}
