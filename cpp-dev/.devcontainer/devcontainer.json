@@ -1,6 +1,6 @@
 {
 	"name": "CPP-DEV",
-	"image": "jianshao/cpp-dev:0.0.1",
+	"image": "jianshao/cpp-dev:11.4.0",
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}/.ssh",
