@@ -1,0 +1,23 @@
+{
+	"name": "NOI-DEV",
+	"image": "jianshao/cpp-dev:9.4.0",
+	"mounts": [
+		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
+		}
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack"
+			]
+		}
+	}
+}
