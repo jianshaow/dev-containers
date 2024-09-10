@@ -16,6 +16,16 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.local",
+			"target": "/home/node/.local",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/node/.cache",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/source",
 			"target": "/workspaces/source",
 			"type": "bind"
