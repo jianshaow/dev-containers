@@ -16,6 +16,11 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.pnpm",
+			"target": "/home/node/.pnpm",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.local",
 			"target": "/home/node/.local",
 			"type": "bind"
