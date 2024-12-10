@@ -9,13 +9,18 @@
 	],
 	"mounts": [
 		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.config",
 			"target": "/home/devel/.config",
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/.ssh",
-			"target": "/home/devel/.ssh",
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/devel/.cache",
 			"type": "bind"
 		},
 		{

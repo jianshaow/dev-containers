@@ -20,6 +20,11 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/devel/.cache",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/source",
 			"target": "/workspaces/source",
 			"type": "bind"
