@@ -34,9 +34,8 @@
 		"vscode": {
 			"extensions": [
 				"ms-python.python",
-				"ms-python.vscode-pylance",
 				"ms-python.black-formatter",
-				"ms-python.isort"
+				"ms-python.pylint"
 			]
 		}
 	}
