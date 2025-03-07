@@ -1,6 +1,6 @@
 {
 	"name": "NODE-DEV",
-	"image": "jianshao/node-dev:lts-slim",
+	"image": "jianshao/node-dev:lts",
 	"runArgs": [
 		"--add-host=host.docker.internal:host-gateway"
 	],
