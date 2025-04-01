@@ -1,6 +1,6 @@
 {
 	"name": "LC-APP-DEV",
-	"image": "jianshao/lc-app-dev:0.3.37",
+	"image": "jianshao/lc-app-dev:0.3.49",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"

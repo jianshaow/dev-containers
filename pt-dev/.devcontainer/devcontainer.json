@@ -1,6 +1,6 @@
 {
 	"name": "PT-DEV",
-	"image": "jianshao/torch-dev-base:2.4.1-cu124",
+	"image": "jianshao/pt-dev-base:2.4.1-cu124",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"
