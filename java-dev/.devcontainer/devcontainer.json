@@ -7,12 +7,12 @@
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}/.ssh",
-			"target": "/home/devel/.ssh",
+			"target": "/home/ubuntu/.ssh",
 			"type": "bind"
 		},
 		{
 			"source": "${localEnv:HOME}/.m2",
-			"target": "/home/devel/.m2",
+			"target": "/home/ubuntu/.m2",
 			"type": "bind"
 		},
 		{
