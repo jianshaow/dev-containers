@@ -1,6 +1,6 @@
 {
 	"name": "LLM-API-DEV",
-	"image": "jianshao/llm-api-dev:20250902",
+	"image": "jianshao/llm-api-dev:latest",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"
