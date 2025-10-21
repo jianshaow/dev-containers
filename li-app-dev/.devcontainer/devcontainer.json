@@ -1,6 +1,6 @@
 {
 	"name": "LI-APP-DEV",
-	"image": "jianshao/li-app-dev:0.14.2",
+	"image": "jianshao/li-app-dev:latest",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"
