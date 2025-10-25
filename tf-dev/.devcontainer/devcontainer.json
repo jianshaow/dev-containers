@@ -1,6 +1,6 @@
 {
 	"name": "TF-DEV",
-	"image": "jianshao/tf-dev-base:2.19.0",
+	"image": "jianshao/tf-dev-base:2.20.0",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"
