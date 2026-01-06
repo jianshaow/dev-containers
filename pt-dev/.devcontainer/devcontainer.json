@@ -1,6 +1,6 @@
 {
 	"name": "PT-DEV",
-	"image": "jianshao/pt-dev-base:2.4.1-cu124",
+	"image": "jianshao/pt-dev-base:2.9.1-cu130",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
 		"OLLAMA_HOST": "host.docker.internal"
