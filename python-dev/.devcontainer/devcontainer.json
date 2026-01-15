@@ -24,6 +24,31 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.claude",
+			"target": "/home/devel/.claude",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.local/share/claude",
+			"target": "/home/devel/.local/share/claude",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.opencode",
+			"target": "/home/devel/.opencode",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.local/share/opencode",
+			"target": "/home/devel/.local/share/opencode",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.bun",
+			"target": "/home/devel/.bun",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/source",
 			"target": "/workspaces/source",
 			"type": "bind"
