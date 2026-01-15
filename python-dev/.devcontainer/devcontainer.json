@@ -34,6 +34,26 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.local/state/claude",
+			"target": "/home/devel/.local/state/claude",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.local/bin/claude",
+			"target": "/home/devel/.local/bin/claude",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.claude.json",
+			"target": "/home/devel/.claude.json",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.claude.json.backup",
+			"target": "/home/devel/.claude.json.backup",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/devel/.opencode",
 			"type": "bind"
@@ -41,6 +61,11 @@
 		{
 			"source": "${localEnv:HOME}/.local/share/opencode",
 			"target": "/home/devel/.local/share/opencode",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.local/bin/opencode",
+			"target": "/home/devel/.local/bin/opencode",
 			"type": "bind"
 		},
 		{
