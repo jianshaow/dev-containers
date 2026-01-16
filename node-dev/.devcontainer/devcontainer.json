@@ -31,9 +31,9 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/.claude",
+			"source": "devcontainer_node-dev_claude_data",
 			"target": "/home/node/.claude",
-			"type": "bind"
+			"type": "volume"
 		},
 		{
 			"source": "${localEnv:HOME}/.claude.json",
