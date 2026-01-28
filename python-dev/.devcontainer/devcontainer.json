@@ -24,6 +24,11 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.local",
+			"target": "/home/devel/.local",
+			"type": "bind"
+		},
+		{
 			"source": "devcontainer_python-dev_claude_data",
 			"target": "/home/devel/.claude",
 			"type": "volume"
@@ -79,7 +84,6 @@
 			"type": "bind"
 		}
 	],
-	"postCreateCommand": "ln -sfn $(ls /home/devel/.local/share/claude/versions | sort -V | tail -n 1 | sed 's|^|/home/devel/.local/share/claude/versions/|') ~/.local/bin/claude; ln -s /home/devel/.opencode/bin/opencode ~/.local/bin/opencode",
 	"customizations": {
 		"vscode": {
 			"extensions": [
