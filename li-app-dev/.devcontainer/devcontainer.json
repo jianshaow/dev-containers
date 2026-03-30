@@ -2,8 +2,7 @@
 	"name": "LI-APP-DEV",
 	"image": "jianshao/li-app-dev:latest",
 	"remoteEnv": {
-		"PYTHONPATH": ".",
-		"OLLAMA_HOST": "host.docker.internal"
+		"PYTHONPATH": "."
 	},
 	"runArgs": [
 		"--add-host=host.docker.internal:host-gateway",
