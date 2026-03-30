@@ -6,7 +6,9 @@
 		"OLLAMA_HOST": "host.docker.internal"
 	},
 	"runArgs": [
-		"--add-host=host.docker.internal:host-gateway"
+		"--add-host=host.docker.internal:host-gateway",
+		"--group-add",
+		"117"
 	],
 	"mounts": [
 		{
@@ -25,8 +27,28 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/nltk_data",
+			"target": "/home/devel/nltk_data",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/source",
 			"target": "/workspaces/source",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/bin/docker",
+			"target": "/usr/bin/docker",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/libexec/docker/cli-plugins",
+			"target": "/usr/libexec/docker/cli-plugins",
+			"type": "bind"
+		},
+		{
+			"source": "/var/run/docker.sock",
+			"target": "/var/run/docker.sock",
 			"type": "bind"
 		}
 	],
