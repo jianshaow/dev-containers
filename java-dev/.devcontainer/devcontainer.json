@@ -2,7 +2,9 @@
 	"name": "JAVA-DEV",
 	"image": "jianshao/java-dev:21",
 	"runArgs": [
-		"--add-host=host.docker.internal:host-gateway"
+		"--add-host=host.docker.internal:host-gateway",
+		"--group-add",
+		"117"
 	],
 	"mounts": [
 		{
@@ -18,6 +20,21 @@
 		{
 			"source": "${localEnv:HOME}/source",
 			"target": "/workspaces/source",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/bin/docker",
+			"target": "/usr/bin/docker",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/libexec/docker/cli-plugins",
+			"target": "/usr/libexec/docker/cli-plugins",
+			"type": "bind"
+		},
+		{
+			"source": "/var/run/docker.sock",
+			"target": "/var/run/docker.sock",
 			"type": "bind"
 		}
 	],
