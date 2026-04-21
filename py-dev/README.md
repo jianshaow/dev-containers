@@ -1,3 +1,3 @@
-# python-dev
+# py-dev
 
 Python development environment
