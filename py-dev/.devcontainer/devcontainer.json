@@ -31,14 +31,9 @@
 			"type": "bind"
 		},
 		{
-			"source": "devcontainer_python-dev_claude_data",
+			"source": "devcontainer_py-dev_claude_data",
 			"target": "/home/devel/.claude",
 			"type": "volume"
-		},
-		{
-			"source": "${localEnv:HOME}/.local/share/claude",
-			"target": "/home/devel/.local/share/claude",
-			"type": "bind"
 		},
 		{
 			"source": "${localEnv:HOME}/.claude.json",
@@ -46,23 +41,8 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/.claude.json.backup",
-			"target": "/home/devel/.claude.json.backup",
-			"type": "bind"
-		},
-		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/devel/.opencode",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.local/share/opencode",
-			"target": "/home/devel/.local/share/opencode",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.bun",
-			"target": "/home/devel/.bun",
 			"type": "bind"
 		},
 		{
