@@ -36,23 +36,8 @@
 			"type": "volume"
 		},
 		{
-			"source": "${localEnv:HOME}/.claude.json",
-			"target": "/home/node/.claude.json",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.claude.json.backup",
-			"target": "/home/node/.claude.json.backup",
-			"type": "bind"
-		},
-		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/node/.opencode",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.bun",
-			"target": "/home/node/.bun",
 			"type": "bind"
 		},
 		{
