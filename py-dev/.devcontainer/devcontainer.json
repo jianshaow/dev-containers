@@ -36,11 +36,6 @@
 			"type": "volume"
 		},
 		{
-			"source": "${localEnv:HOME}/.claude.json",
-			"target": "/home/devel/.claude.json",
-			"type": "bind"
-		},
-		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/devel/.opencode",
 			"type": "bind"
