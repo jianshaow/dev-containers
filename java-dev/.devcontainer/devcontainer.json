@@ -2,7 +2,7 @@
 	"name": "JAVA-DEV",
 	"image": "jianshao/java-dev:21",
 	"runArgs": [
-		"--add-host=host.docker.internal:host-gateway",
+		"--network=host",
 		"--group-add",
 		"117"
 	],
