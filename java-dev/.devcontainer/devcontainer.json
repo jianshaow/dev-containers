@@ -1,6 +1,6 @@
 {
 	"name": "JAVA-DEV",
-	"image": "jianshao/java-dev:21",
+	"image": "jianshao/java-dev:17",
 	"runArgs": [
 		"--network=host",
 		"--group-add",
