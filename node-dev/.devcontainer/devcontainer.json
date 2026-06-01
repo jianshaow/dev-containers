@@ -32,7 +32,7 @@
 		},
 		{
 			"source": "${localEnv:HOME}/.copilot",
-			"target": "/home/devel/.copilot",
+			"target": "/home/node/.copilot",
 			"type": "bind"
 		},
 		{
