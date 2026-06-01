@@ -5,7 +5,7 @@
 		"PYTHONPATH": "."
 	},
 	"runArgs": [
-		"--add-host=host.docker.internal:host-gateway",
+		"--network=host",
 		"--group-add",
 		"117"
 	],
