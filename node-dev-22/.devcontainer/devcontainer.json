@@ -1,0 +1,62 @@
+{
+	"name": "NODE-DEV-22",
+	"image": "jianshao/node-dev:22",
+	"runArgs": [
+		"--network=host"
+	],
+	"mounts": [
+		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/node/.ssh",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.npm",
+			"target": "/home/node/.npm",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.pnpm",
+			"target": "/home/node/.pnpm",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.local",
+			"target": "/home/node/.local",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/node/.cache",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.copilot",
+			"target": "/home/node/.copilot",
+			"type": "bind"
+		},
+		{
+			"source": "devcontainer_node-dev_claude_data",
+			"target": "/home/node/.claude",
+			"type": "volume"
+		},
+		{
+			"source": "${localEnv:HOME}/.opencode",
+			"target": "/home/node/.opencode",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
+		}
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	}
+}
