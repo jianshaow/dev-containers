@@ -1,5 +1,5 @@
 {
-	"name": "NODE-DEV-22",
+	"name": "NODE-22-DEV",
 	"image": "jianshao/node-dev:22",
 	"runArgs": [
 		"--network=host"
