@@ -8,6 +8,11 @@
 	],
 	"mounts": [
 		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.ssh",
 			"target": "/home/ubuntu/.ssh",
 			"type": "bind"
@@ -18,18 +23,13 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
-			"type": "bind"
-		},
-		{
 			"source": "${localEnv:HOME}/.copilot",
 			"target": "/home/ubuntu/.copilot",
 			"type": "bind"
 		},
 		{
 			"source": "${localEnv:HOME}/.opencode",
-			"target": "/home/node/.opencode",
+			"target": "/home/ubuntu/.opencode",
 			"type": "bind"
 		},
 		{

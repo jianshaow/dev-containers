@@ -3,13 +3,13 @@
 	"image": "jianshao/cpp-dev:11.4.0",
 	"mounts": [
 		{
-			"source": "${localEnv:HOME}/.ssh",
-			"target": "/home/devel/.ssh",
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
 			"type": "bind"
 		}
 	],

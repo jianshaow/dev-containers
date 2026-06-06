@@ -6,6 +6,11 @@
 	],
 	"mounts": [
 		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.ssh",
 			"target": "/home/node/.ssh",
 			"type": "bind"
@@ -38,11 +43,6 @@
 		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/node/.opencode",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
 			"type": "bind"
 		}
 	],

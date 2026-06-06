@@ -8,6 +8,11 @@
 	],
 	"mounts": [
 		{
+			"source": "${localEnv:HOME}/source",
+			"target": "/workspaces/source",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.ssh",
 			"target": "/home/ubuntu/.ssh",
 			"type": "bind"
@@ -15,11 +20,6 @@
 		{
 			"source": "${localEnv:HOME}/.m2",
 			"target": "/home/ubuntu/.m2",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
 			"type": "bind"
 		},
 		{
