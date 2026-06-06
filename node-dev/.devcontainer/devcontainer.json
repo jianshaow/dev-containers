@@ -36,11 +36,6 @@
 			"type": "bind"
 		},
 		{
-			"source": "devcontainer_node-dev_claude_data",
-			"target": "/home/node/.claude",
-			"type": "volume"
-		},
-		{
 			"source": "${localEnv:HOME}/.opencode",
 			"target": "/home/node/.opencode",
 			"type": "bind"
