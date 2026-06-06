@@ -7,7 +7,7 @@
 	"runArgs": [
 		"--network=host",
 		"--group-add",
-		"117"
+		"${localEnv:DOCKER_GID}"
 	],
 	"mounts": [
 		{

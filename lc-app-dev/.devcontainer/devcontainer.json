@@ -3,12 +3,11 @@
 	"image": "jianshao/lc-app-dev:latest",
 	"remoteEnv": {
 		"PYTHONPATH": ".",
-		"OLLAMA_HOST": "host.docker.internal"
 	},
 	"runArgs": [
 		"--network=host",
 		"--group-add",
-		"117"
+		"${localEnv:DOCKER_GID}"
 	],
 	"mounts": [
 		{
