@@ -9,7 +9,7 @@
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
+			"target": "/home/ubuntu/source",
 			"type": "bind"
 		},
 		{

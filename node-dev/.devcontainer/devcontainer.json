@@ -7,7 +7,7 @@
 	"mounts": [
 		{
 			"source": "${localEnv:HOME}/source",
-			"target": "/workspaces/source",
+			"target": "/home/node/source",
 			"type": "bind"
 		},
 		{
