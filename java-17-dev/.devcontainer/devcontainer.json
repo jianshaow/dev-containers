@@ -18,6 +18,11 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/ubuntu/.cache",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.m2",
 			"target": "/home/ubuntu/.m2",
 			"type": "bind"
