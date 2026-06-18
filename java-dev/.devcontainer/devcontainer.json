@@ -34,7 +34,7 @@
 		},
 		{
 			"source": "${localEnv:HOME}/.opencode",
-			"target": "/home/node/.opencode",
+			"target": "/home/ubuntu/.opencode",
 			"type": "bind"
 		},
 		{
