@@ -2,7 +2,9 @@
 	"name": "NODE-22-DEV",
 	"image": "jianshao/node-dev:22",
 	"runArgs": [
-		"--network=host"
+		"--network=host",
+		"--group-add",
+		"${localEnv:DOCKER_GID}"
 	],
 	"mounts": [
 		{

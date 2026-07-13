@@ -5,7 +5,9 @@
 		"PYTHONPATH": "."
 	},
 	"runArgs": [
-		"--network=host"
+		"--network=host",
+		"--group-add",
+		"${localEnv:DOCKER_GID}"
 	],
 	"mounts": [
 		{
