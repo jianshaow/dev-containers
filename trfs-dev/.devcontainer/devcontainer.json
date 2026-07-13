@@ -14,6 +14,11 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.ssh",
+			"target": "/home/devel/.ssh",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.config",
 			"target": "/home/devel/.config",
 			"type": "bind"
@@ -24,8 +29,28 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/.ssh",
-			"target": "/home/devel/.ssh",
+			"source": "${localEnv:HOME}/.copilot",
+			"target": "/home/devel/.copilot",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.opencode",
+			"target": "/home/devel/.opencode",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/bin/docker",
+			"target": "/usr/bin/docker",
+			"type": "bind"
+		},
+		{
+			"source": "/usr/libexec/docker/cli-plugins",
+			"target": "/usr/libexec/docker/cli-plugins",
+			"type": "bind"
+		},
+		{
+			"source": "/var/run/docker.sock",
+			"target": "/var/run/docker.sock",
 			"type": "bind"
 		}
 	],

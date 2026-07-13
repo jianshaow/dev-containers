@@ -16,6 +16,21 @@
 			"type": "bind"
 		},
 		{
+			"source": "${localEnv:HOME}/.local",
+			"target": "/home/node/.local",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.config",
+			"target": "/home/node/.config",
+			"type": "bind"
+		},
+		{
+			"source": "${localEnv:HOME}/.cache",
+			"target": "/home/node/.cache",
+			"type": "bind"
+		},
+		{
 			"source": "${localEnv:HOME}/.npm",
 			"target": "/home/node/.npm",
 			"type": "bind"
@@ -23,16 +38,6 @@
 		{
 			"source": "${localEnv:HOME}/.pnpm",
 			"target": "/home/node/.pnpm",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.local",
-			"target": "/home/node/.local",
-			"type": "bind"
-		},
-		{
-			"source": "${localEnv:HOME}/.cache",
-			"target": "/home/node/.cache",
 			"type": "bind"
 		},
 		{
