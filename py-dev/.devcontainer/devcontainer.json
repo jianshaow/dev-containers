@@ -1,6 +1,6 @@
 {
 	"name": "PY-DEV",
-	"image": "jianshao/py-dev-base:3.12",
+	"image": "jianshao/py-dev-base:3.14",
 	"remoteEnv": {
 		"PYTHONPATH": "."
 	},
