@@ -31,11 +31,6 @@
 			"type": "bind"
 		},
 		{
-			"source": "${localEnv:HOME}/nltk_data",
-			"target": "/home/devel/nltk_data",
-			"type": "bind"
-		},
-		{
 			"source": "/usr/bin/docker",
 			"target": "/usr/bin/docker",
 			"type": "bind"
